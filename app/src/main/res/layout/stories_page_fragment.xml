@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:background="#000000">
+
+    <TextView
+        android:id="@+id/tvStories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="16dp"
+        android:letterSpacing="0.04"
+        android:lineSpacingExtra="4.6sp"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        android:fontFamily="@font/open_sans_semibold"
+        tools:text="Добро пожаловать в мир магических кристаллов!" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/ivStories"
+            android:layout_width="302dp"
+            android:layout_height="302dp"
+            tools:src="@drawable/img_tutor_1"
+            android:layout_gravity="center"/>
+
+
+    </FrameLayout>
+
+
+
+</LinearLayout>

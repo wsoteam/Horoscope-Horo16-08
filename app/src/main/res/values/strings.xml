@@ -1,0 +1,267 @@
+<resources>
+    <string name="app_name">Astropedia</string>
+
+    <!--Test-->
+    <!--<string name="admob_key" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="interstitial_id" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="banner_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="native_ad" translatable="false">ca-app-pub-3940256099942544/8135179316</string>-->
+
+    <string name="admob_key" translatable="false">ca-app-pub-3050564412171997~8214816203</string>
+
+    <string name="yam_id" translatable="false">22acc77d-d70e-4ae7-a529-44366e9ed22f</string>
+    <string name="amplitude_id">3031a61ead2f7482d87c899794cec751</string>
+    <string name="fender_id">nMMITxQP2vlSvBuuHLxNDrQxRpw2r21I</string>
+    <string name="qonversion_id">rUC-czxB0dMVbaQHM8LOuRtZ1RQr2BE9</string>
+    <string name="release_user_expirior_id">8c61caf3-a16c-40a0-be6a-ed6e73161265</string>
+    <string name="debug_user_expirior_id">57935308-52c4-4081-bc71-1cf37f6b9b55</string>
+    <string name="facebook_app_id">1023189861758005</string>
+    <string name="fb_login_protocol_scheme">fb1023189861758005</string>
+
+    <string name="uxcam_id" translatable="false">9xbgtoyhh5e4oip</string>
+
+    <!--Signs-->
+    <integer-array name="icons_signs">
+        <item>@drawable/ic_sign_0</item>
+        <item>@drawable/ic_sign_1</item>
+        <item>@drawable/ic_sign_2</item>
+        <item>@drawable/ic_sign_3</item>
+        <item>@drawable/ic_sign_4</item>
+        <item>@drawable/ic_sign_5</item>
+        <item>@drawable/ic_sign_6</item>
+        <item>@drawable/ic_sign_7</item>
+        <item>@drawable/ic_sign_8</item>
+        <item>@drawable/ic_sign_9</item>
+        <item>@drawable/ic_sign_10</item>
+        <item>@drawable/ic_sign_11</item>
+    </integer-array>
+
+    <string-array name="names_signs">
+        <item>Aries</item>
+        <item>Taurus</item>
+        <item>Gemini</item>
+        <item>Cancer</item>
+        <item>Leo</item>
+        <item>Virgo</item>
+        <item>Libra</item>
+        <item>Scorpio</item>
+        <item>Sagittarius</item>
+        <item>Capricorn</item>
+        <item>Aquarius</item>
+        <item>Pisces</item>
+    </string-array>
+
+    <integer-array name="imgs_signs">
+        <item>@drawable/img_sign_aries</item>
+        <item>@drawable/img_sign_taurus</item>
+        <item>@drawable/img_sign_gemini</item>
+        <item>@drawable/img_sign_cancer</item>
+        <item>@drawable/img_sign_leo</item>
+        <item>@drawable/img_sign_virgo</item>
+        <item>@drawable/img_sign_libra</item>
+        <item>@drawable/img_sign_scorpio</item>
+        <item>@drawable/img_sign_sagittarius</item>
+        <item>@drawable/img_sign_capricorn</item>
+        <item>@drawable/img_sign_aquarius</item>
+        <item>@drawable/img_sign_pisces</item>
+    </integer-array>
+
+    <integer-array name="imgs_signs_matches">
+        <item>@drawable/ic_aries_matches</item>
+        <item>@drawable/ic_taurus_matches</item>
+        <item>@drawable/ic_gemini_matches</item>
+        <item>@drawable/ic_cancer_matches</item>
+        <item>@drawable/ic_leo_matches</item>
+        <item>@drawable/ic_virgo_matches</item>
+        <item>@drawable/ic_libra_matches</item>
+        <item>@drawable/ic_scorpio_matches</item>
+        <item>@drawable/ic_sagittarius_matches</item>
+        <item>@drawable/ic_capricorn_matches</item>
+        <item>@drawable/ic_aquarius_matches</item>
+        <item>@drawable/ic_pisces_matches</item>
+    </integer-array>
+
+    <!--Splash-->
+    <string name="splash_title">Astropedia</string>
+
+    <!--FormActivity-->
+    <string name="enter_your_details">Enter your details</string>
+    <string name="text_title">We will customize the horoscope for you personally</string>
+    <string name="name">Name</string>
+    <string name="birth">Date of birth</string>
+    <string name="bottom_text">You can change the data later in the settings</string>
+    <string name="cancel_date_picker">CANCEL</string>
+    <string name="ok_date_picker">OK</string>
+
+    <!--Premium-->
+    <string name="remove_ads">Remove ADS</string>
+    <string name="prem4">3 days for free.</string>
+    <string name="prem5">Further subscription for a month</string>
+
+    <!--Settings-->
+    <string name="prem_set">Premium</string>
+    <string name="empty_prem">Remove ADS</string>
+    <string name="date_title">Date of birthday</string>
+    <string name="notifications">Notifications</string>
+    <string name="notif_time_title">Receive notifications</string>
+    <string name="you_have_subscribed">You have subscribed</string>
+    <string name="ok_alert">OK</string>
+    <string name="pm">PM</string>
+    <string name="am">AM</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="today">Today</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="month">Month</string>
+    <string name="year">Year</string>
+    <string name="today_apos_s_matches">Today\'s matches</string>
+    <string name="love">Love</string>
+    <string name="friendship">Friendship</string>
+    <string name="career">Career</string>
+    <string name="general_mood">General Mood</string>
+    <string name="sex">Sex</string>
+    <string name="hustle">Hustle</string>
+    <string name="vibe">Vibe</string>
+    <string name="success">Success</string>
+    <string name="settings">Settings</string>
+    <string name="week">Week</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="check_your_internet_connection">Check your internet connection and try again</string>
+    <string name="try_again">Try again</string>
+    <string name="check_connection">Сheck your internet connection</string>
+
+    <string-array name="notifications_text">
+        <item>An incredible adventure awaits you today</item>
+        <item>You need to be careful today...</item>
+        <item>Beware of a dirty trick from a loved one!</item>
+        <item>Today you are lucky...</item>
+        <item>The planets speak of great success...</item>
+    </string-array>
+
+    <string name="d_of_d">%d of %d</string>
+    <string name="tap_ball">Tap to ball</string>
+    <string name="ask">Ask the question</string>
+    <string name="answer_init">\?</string>
+
+    <string name="access_will">Access will open through:</string>
+    <string name="alert_title">The limit of questions has been reached</string>
+    <string name="or">or</string>
+    <string name="connect_premium">Connect PREMIUM and get:</string>
+    <string name="full_access">Full access</string>
+    <string name="no_ads">No ADS</string>
+    <string name="get_premium">Get Premium</string>
+    <string name="premium">Premium</string>
+    <string name="get_vip">Get vip version</string>
+    <string name="hour_short">h</string>
+
+
+    <string-array name="answers">
+        <item>No\ndoubt</item>
+        <item>Very\nlikely</item>
+        <item>Count\non it</item>
+        <item>Ask\nlater</item>
+        <item>No</item>
+        <item>Yes</item>
+        <item>Go for\nit</item>
+        <item>Wait for\nit!</item>
+        <item>Certainly</item>
+        <item>Cannot tell\nnow</item>
+        <item>I think\nyes</item>
+        <item>I think\nno</item>
+    </string-array>
+
+    <string name="time_format" translatable="false">%02d:%02d:%02d</string>
+
+
+    <string name="horoscope">Horoscope</string>
+    <string name="magic_ball">Magic Ball</string>
+    <string name="aries">Aries</string>
+    <string name="taurus">Taurus</string>
+    <string name="gemini">Gemini</string>
+    <string name="cancer">Cancer</string>
+    <string name="leo">Leo</string>
+    <string name="virgo">Virgo</string>
+    <string name="libra">Libra</string>
+    <string name="scorpio">Scorpio</string>
+    <string name="sagittarius">Sagittarius</string>
+    <string name="capricorn">Capricorn</string>
+    <string name="aquarius">Aquarius</string>
+    <string name="pisces">Pisces</string>
+    <string name="off_ads">OFF ADS</string>
+    <string name="get_a_premium_subscription">Get a premium subscription</string>
+    <string name="full_information_is_available_by_subscription">Full information is available by subscription</string>
+    <string name="get_access">Get Access</string>
+    <string name="no_advertising">No advertising</string>
+    <string name="full_access_to_horoscopes">Full access to horoscopes</string>
+    <string name="unlimited_questions_to_the_magic_ball">Unlimited questions to the magic ball</string>
+    <string name="try_free_trial">Try Free Trial</string>
+    <string name="maybe_later">Maybe later</string>
+
+
+    <string-array name="onboard_titles">
+        <item>No advertising</item>
+        <item>Full access to Horoscopes</item>
+        <item>Unlimited questions to the magic ball</item>
+    </string-array>
+
+    <string name="first_part_notif">Your</string>
+    <string name="second_part_notif">horoscope is ready! Click to learn more</string>
+    <string name="evening_alarm">Still don\'t know what destiny prepared to you? So what are you waiting for?</string>
+    <string name="smartlock_id">10fbeebdefaa79e2ee125c39e72105be3025253f</string>
+    <string name="your_personal_horoscope">Your personal horoscope</string>
+    <string name="tips_and_predictions_for_every_day">Tips and predictions for every day</string>
+    <string name="to_stories">To stories</string>
+    <string name="my_horoscope_on">My Horoscope on</string>
+    <string name="shop_title">Crystal shop</string>
+
+
+    <string-array name="stories_onboard_texts">
+        <item>Добро пожаловать в мир магических кристаллов!</item>
+        <item>Каждый кристалл наделен особой магией. Он поможет тебе восполнить энергию в сферах твоей жизни</item>
+        <item>Выбирая себе кристалл, ты активируешь силу, которая будет помогать тебе реализовываться день за днем</item>
+        <item>Ты можешь зарядиться от кристалла, тем самым усилив его влияющее воздействие на сферы твоей жизни. Ты станешь еще более уверенным в себе</item>
+        <item>Попробуй. Ты определенно увидишь положительные изменения в своей жизни. Поверь в себя и силу кристалла!</item>
+    </string-array>
+
+
+    <string-array name="prices">
+        <item>no_ads_start</item>
+        <item>premium_24.9</item>
+        <item>premium_49.9</item>
+        <item>premium_99.9</item>
+    </string-array>
+
+    <integer-array name="crystals_ids">
+        <item>@drawable/ic_cristal_0</item>
+        <item>@drawable/ic_cristal_1</item>
+        <item>@drawable/ic_cristal_2</item>
+        <item>@drawable/ic_cristal_3</item>
+        <item>@drawable/ic_cristal_4</item>
+        <item>@drawable/ic_cristal_5</item>
+        <item>@drawable/ic_cristal_6</item>
+        <item>@drawable/ic_cristal_7</item>
+    </integer-array>
+
+    <string-array name="crystals_names">
+        <item>Ametist</item>
+        <item>Garnet</item>
+        <item>Icelandic spar</item>
+        <item>Lapis lazuli</item>
+        <item>Malachite</item>
+        <item>Rose quartz</item>
+        <item>Schorl</item>
+        <item>Fluorite</item>
+    </string-array>
+
+    <string-array name="crystals_prop">
+        <item>Health</item>
+        <item>Power and strength</item>
+        <item>Intuition</item>
+        <item>Success</item>
+        <item>Charm</item>
+        <item>Love</item>
+        <item>Wealth</item>
+        <item>Calm</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0a0b20">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/open_sans_semibold"
+        android:textStyle="normal"
+        android:textSize="22sp"
+        android:textColor="#ffffff"
+        android:letterSpacing="0.04"
+        android:lineSpacingExtra="6.3sp"
+        android:text="App’s Subscription Terms"
+        android:layout_marginTop="41dp"
+        android:layout_marginStart="16dp"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_close_app_terms"
+        android:padding="16dp"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="end"
+        android:id="@+id/ivClose"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:textStyle="normal"
+                android:text="@string/terms"
+                android:textSize="14sp"
+                android:textColor="#ffffff"
+                android:letterSpacing="0.06"
+                android:lineSpacingExtra="4.9sp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="22dp"/>
+        </FrameLayout>
+
+
+    </ScrollView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:src="@drawable/shape_gradient"
+        android:layout_gravity="bottom"/>
+
+    <Button
+        android:id="@+id/btnPay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="64dp"
+        android:fontFamily="@font/open_sans_regular"
+        android:letterSpacing="0.09"
+        android:lineSpacingExtra="2sp"
+        android:text="agree &amp; continue"
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:paddingLeft="28dp"
+        android:paddingRight="28dp"
+        android:drawableEnd="@drawable/ic_arrow_finish"
+        android:drawablePadding="8dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:background="@drawable/shape_button_enter" />
+
+</FrameLayout>

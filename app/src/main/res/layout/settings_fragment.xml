@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#f4e6d8">
+
+
+    <LinearLayout
+        android:id="@+id/llPrem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="?selectableItemBackground">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_crown"
+            android:id="@+id/ivPrem"
+            android:layout_marginTop="16dp"
+            android:visibility="gone"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/tvPrem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="#2e2c5c"
+            android:letterSpacing="0.06"
+            android:lineSpacingExtra="5.1sp"
+            android:text="@string/empty_prem"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginStart="16dp"
+            />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#1c2e2c5c" />
+
+    <FrameLayout
+        android:id="@+id/flDateBirth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?selectableItemBackground">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="#2e2c5c"
+            android:letterSpacing="0.06"
+            android:lineSpacingExtra="5.1sp"
+            android:text="@string/date_title"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            />
+
+        <TextView
+            android:id="@+id/tvDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:fontFamily="sans-serif"
+            android:textStyle="normal"
+            android:textColor="#2e2c5c"
+            android:letterSpacing="0.02"
+            android:lineSpacingExtra="6sp"
+            tools:text="28.07.1993"
+            android:layout_marginTop="45dp"
+            android:layout_marginBottom="11dp"
+            android:layout_marginStart="16dp"
+            />
+
+        <TextView
+            android:id="@+id/tvSign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:fontFamily="sans-serif"
+            android:textStyle="normal"
+            android:textColor="#2e2c5c"
+            android:letterSpacing="0.02"
+            android:lineSpacingExtra="6sp"
+            android:layout_marginEnd="42dp"
+            android:layout_marginBottom="11dp"
+            tools:text="gemini"
+            android:layout_gravity="end|bottom"
+            />
+        
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:id="@+id/ivSign"
+            android:layout_gravity="bottom|end"
+            android:layout_marginBottom="12dp"
+            android:layout_marginEnd="16dp"
+            tools:srcCompat = "@drawable/ic_sign_3"/>
+
+
+
+    </FrameLayout>
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#1c2e2c5c" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="#2e2c5c"
+                android:letterSpacing="0.06"
+                android:lineSpacingExtra="5.1sp"
+                android:text="@string/notifications"
+                android:layout_marginTop="28dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginBottom="16dp"
+                />
+
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/swNotif"
+                android:layout_marginBottom="16dp"
+                android:layout_marginTop="28dp"
+                android:layout_marginEnd="16dp"
+                android:layout_gravity="end"/>
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/llNotifTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone"
+            android:background="?selectableItemBackground">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="#2e2c5c"
+                android:letterSpacing="0.06"
+                android:lineSpacingExtra="5.1sp"
+                android:text="@string/notif_time_title"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="16dp"
+                />
+
+            <TextView
+                android:id="@+id/tvTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="11dp"
+                android:fontFamily="sans-serif"
+                android:letterSpacing="0.02"
+                android:lineSpacingExtra="6sp"
+                tools:text="09:00"
+                android:textColor="#2e2c5c"
+                android:textSize="14sp"
+                android:textStyle="normal" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#1c2e2c5c" />
+
+
+</LinearLayout>

@@ -1,0 +1,142 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Splash" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">#2d2c52</item>
+        <item name="colorPrimaryDark">#2d2c52</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="android:navigationBarColor">@color/main_violet</item>
+    </style>
+
+
+    <style name="EnterActivityStyle" parent="Theme.AppCompat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+    </style>
+
+    <style name="Form" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">#c8bdb2</item>
+        <item name="colorPrimaryDark">#c8bdb2</item>
+        <item name="colorAccent">#2e2c5c</item>
+        <item name="android:navigationBarColor">#f4e6d8</item>
+    </style>
+
+    <style name="Premium" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/main_violet_hard</item>
+        <item name="colorPrimaryDark">#f4e6d8</item>
+        <item name="colorAccent">#2e2c5c</item>
+        <item name="android:navigationBarColor">#f4e6d8</item>
+    </style>
+
+    <style name="Main" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">#f4e6d8</item>
+        <item name="colorPrimaryDark">#c8bdb2</item>
+        <item name="colorAccent">#2e2c5c</item>
+        <item name="drawerArrowStyle">@style/BurgerIconStyle</item>
+        <item name="android:navigationBarColor">#353366</item>
+    </style>
+
+    <style name="BurgerIconStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@color/main_violet</item>
+    </style>
+
+    <style name="TextInputStyle.Hint" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#51000000</item>
+        <item name="android:textStyle">normal</item>
+        <item name="hintTextColor">#CD0404</item>
+        <item name="android:letterSpacing">0.03</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="TextInputStyle.Error" parent="TextAppearance.AppCompat">
+        <item name="colorAccent">#ed2d2d</item>
+        <item name="android:textColor">#ed2d2d</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+    </style>
+
+    <style name="WeekAppearance">
+        <item name="android:textColor">#de000000</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="DateAppearance">
+        <item name="android:textColor">#de000000</item>
+        <item name="android:colorFocusedHighlight">#ed2d2d</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="CalendarTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:textColorPrimary">#000000</item>
+        <item name="colorAccent">#2e2c5c</item>
+    </style>
+
+    <style name="timePicker" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">#2e2c5c</item>
+        <item name="colorControlActivated">#2e2c5c</item>
+        <item name="android:textColorPrimary">#de000000</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="DrawerItemText">
+        <item name="android:textSize">16sp</item>
+        <item name="android:letterSpacing">0.04</item>
+        <item name="android:lineSpacingExtra">4.6sp</item>
+        <item name="itemBackground">@drawable/selector_drawer_back</item>
+    </style>
+
+    <style name="Widget.BottomNavigationView" parent="Widget.Design.BottomNavigationView">
+        <item name="fontFamily">@font/roboto_light</item>
+        <item name="android:textSize">9sp</item>
+    </style>
+
+    <style name="BnvTextActive">
+        <item name="android:textSize">12sp</item>
+        <item name="fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:letterSpacing">0.03</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/active_bnv</item>
+    </style>
+
+    <style name="BnvTextInActive">
+        <item name="android:textSize">12sp</item>
+        <item name="fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:letterSpacing">0.03</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/inactive_bnv</item>
+    </style>
+
+    <style name="TopProgressStyle" parent="Widget.AppCompat.ProgressBar.Horizontal">
+    </style>
+
+    <style name="BL" parent="Theme.AppCompat.NoActionBar">
+    <item name="colorPrimary">#f4e6d8</item>
+        <item name="colorPrimaryDark">#c8bdb2</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#f4e6d8">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="320dp"
+            android:layout_marginTop="80dp"
+            >
+
+            <androidx.viewpager.widget.ViewPager
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/vpOnboard"/>
+
+
+            <com.make.dots.dotsindicator.DotsIndicator
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/diOnboard"
+                android:layout_gravity="center_horizontal"
+                app:dot_drawable="@drawable/img_fill_dot"
+                app:dot_drawable_unselected="@drawable/img_unfill_dot"
+                app:dot_height="8dp"
+                app:dot_width="8dp"
+                android:layout_marginTop="210dp"/>
+
+        </FrameLayout>
+
+        <Button
+            android:id="@+id/btnPay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="39dp"
+            android:background="@drawable/shape_lock_prem"
+            android:letterSpacing="0.06"
+            android:lineSpacingExtra="4.6sp"
+            android:paddingStart="67dp"
+            android:paddingRight="67dp"
+            android:text="@string/try_free_trial"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="211dp"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#61000000"
+            android:letterSpacing="0.06"
+            android:lineSpacingExtra="4sp"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="12dp"
+            tools:text="3 days trial period. Next 0$ per month"
+            android:id="@+id/tvPrice"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#c0000000"
+            android:letterSpacing="0.06"
+            android:lineSpacingExtra="4sp"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:padding="30dp"
+            android:text="@string/maybe_later"
+            android:id="@+id/tvLater"
+            />
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:background="#000000">
+
+    <ProgressBar
+        android:id="@+id/pbTopProgress"
+        style="@style/TopProgressStyle"
+        android:layout_width="52dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="1dp"
+        android:background="@drawable/shape_back_progress"
+        android:progressTint="@color/white"
+        android:layout_gravity="center"
+        android:max="90000"
+        />
+
+</FrameLayout>

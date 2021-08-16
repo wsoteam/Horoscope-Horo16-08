@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f4e6d8"
+        android:orientation="vertical"
+        android:elevation="1dp"
+        android:id="@+id/llParentLayout">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="78dp"
+            android:fontFamily="@font/sf_pro_text_medium"
+            android:letterSpacing="0.06"
+            android:lineSpacingExtra="5.1sp"
+            android:text="@string/app_name"
+            android:textColor="#2e2c5c"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="0dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center_horizontal"
+            android:letterSpacing="0.04"
+            android:lineSpacingExtra="3sp"
+            android:text="@string/your_personal_horoscope"
+            android:textColor="#2e2c5c"
+            android:textSize="11sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/sf_pro_text_medium"
+            android:textStyle="normal"
+            android:textSize="16sp"
+            android:textColor="#2e2c5c"
+            android:letterSpacing="0.04"
+            android:lineSpacingExtra="4.6sp"
+            tools:text="Gemini"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:id="@+id/tvTopTitleStories"
+            />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivSignStories"
+            android:layout_width="140dp"
+            android:layout_height="125dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="12dp"
+            tools:srcCompat="@drawable/img_sign_aquarius" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:elevation="3dp"
+            app:cardCornerRadius="12dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/main_violet"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvTitleStories"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="22dp"
+                    android:layout_marginEnd="16dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:letterSpacing="0.02"
+                    android:lineSpacingExtra="4sp"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp"
+                    android:textStyle="normal"
+                    tools:text="My Horoscope on 30 October" />
+
+                <TextView
+                    android:id="@+id/tvTextStories"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="22dp"
+                    android:fontFamily="sans-serif"
+                    android:letterSpacing="0.03"
+                    android:lineSpacingExtra="4.9sp"
+                    android:textColor="#ffffff"
+                    android:textSize="14sp"
+                    android:textStyle="normal"
+                    tools:text="This is a good day to reflect on the past weeks and get some perspective, Aries. You&apos;ve probably been working too hard and neglecting other priorities in your life." />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="23dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center_horizontal"
+            android:letterSpacing="0.04"
+            android:lineSpacingExtra="3sp"
+            android:text="@string/tips_and_predictions_for_every_day"
+            android:textColor="#2e2c5c"
+            android:textSize="11sp"
+            android:textStyle="normal" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="38dp"
+            android:layout_height="37dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="12dp"
+            app:srcCompat="@drawable/ic_starticon_stories" />
+
+
+    </LinearLayout>

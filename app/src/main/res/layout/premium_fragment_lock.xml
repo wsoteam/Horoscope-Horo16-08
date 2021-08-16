@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/main_violet"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivClose"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            app:srcCompat="@drawable/ic_close" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="234dp"
+            android:layout_height="234dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="60dp"
+            app:srcCompat="@drawable/img_prem_lock" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:textColor="#ffffff"
+            android:letterSpacing="0.02"
+            android:lineSpacingExtra="2.2sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="28dp"
+            android:text="Ads Blocking"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical"
+        android:layout_gravity="bottom">
+
+
+        <Button
+            android:id="@+id/btnPayLock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"
+            android:paddingEnd="46dp"
+            android:paddingStart="46dp"
+            android:textSize="16sp"
+            android:textColor="#2e2c5c"
+            android:letterSpacing="0.06"
+            android:lineSpacingExtra="4.6sp"
+            android:text="@string/remove_ads"
+            android:background="@drawable/shape_button_premium_lock"/>
+
+        <TextView
+            android:id="@+id/tvPriceLock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="27dp"
+            android:textSize="14sp"
+            android:textColor="#b8ffffff"
+            android:letterSpacing="0.06"
+            android:lineSpacingExtra="4sp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            tools:text="3 days trial period. Next 0$ per month"
+            />
+
+
+    </LinearLayout>
+
+</FrameLayout>

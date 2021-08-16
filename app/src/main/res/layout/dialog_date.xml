@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+    <DatePicker
+        android:id="@+id/dpCalendar"
+        android:theme="@style/CalendarTheme"
+        android:datePickerMode="spinner"
+        android:calendarViewShown="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:calendarTextColor="#de000000"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:layout_marginBottom="16dp"
+        android:layout_gravity="bottom|end">
+
+        <TextView
+            android:id="@+id/tvCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:fontFamily="sans-serif-medium"
+            android:textStyle="normal"
+            android:textColor="#2e2c5c"
+            android:layout_marginEnd="30dp"
+            android:letterSpacing="0.04"
+            android:text="@string/cancel_date_picker"
+            android:background="?selectableItemBackground"
+
+            />
+
+        <TextView
+            android:id="@+id/tvOk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:fontFamily="sans-serif-medium"
+            android:textStyle="normal"
+            android:textColor="#2e2c5c"
+            android:letterSpacing="0.04"
+            android:layout_marginEnd="26dp"
+            android:text="@string/ok_date_picker"
+            android:background="?selectableItemBackground"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

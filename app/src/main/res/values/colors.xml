@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+
+    <color name="main_violet">#2e2c5c</color>
+    <color name="main_violet_hard">#2d2c52</color>
+    <color name="form_back">#f4e6d8</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="active_tool_sign">#2e2c5c</color>
+    <color name="inactive_tool_sign">#91899a</color>
+
+    <color name="toolbarText">#5CFFFFFF</color>
+    <color name="whiteText">#DEFFFFFF</color>
+    <color name="yellow">#E4DA05</color>
+
+    <color name="colorPrimaryBall">#0C0057</color>
+    <color name="colorPrimaryDarkBall">#000000</color>
+    <color name="colorAccentBall">#ffffff</color>
+
+    <color name="black">#1d1c1c</color>
+
+    <color name="active_bnv">#f4e6d8</color>
+    <color name="inactive_bnv">#807e9f</color>
+
+    <color name="com_facebook_button_background_color_focused_disabled">#807e9f</color>
+    <color name="com_facebook_button_background_color_focused">#807e9f</color>
+    <color name="com_facebook_button_border_color_focused">#807e9f</color>
+
+    <color name="color_inactive_top_progress">#757493</color>
+    <color name="color_active_top_progress">#FFFFFF</color>
+
+
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+        <TimePicker
+            android:theme="@style/timePicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tpNotif"/>
+
+        <View
+            android:id="@+id/divider4"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#d5d5d5" />
+
+        <TextView
+            android:id="@+id/tvSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:fontFamily="sans-serif-medium"
+            android:textStyle="normal"
+            android:textColor="#2e2c5c"
+            android:letterSpacing="0.04"
+            android:text="DONE"
+            android:gravity="center_horizontal"
+            android:paddingTop="18dp"
+            android:paddingBottom="18dp"
+            android:background="?selectableItemBackground"
+            />
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

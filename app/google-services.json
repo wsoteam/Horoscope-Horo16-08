@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "659965710584",
+    "project_id": "horoskope-93536",
+    "storage_bucket": "horoskope-93536.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:659965710584:android:d6f800ece46f55e8eb6b0d",
+        "android_client_info": {
+          "package_name": "kek.lolkekteam.astrohuastro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "659965710584-93neigiv0tg0g1p5j6dnkn498571afuc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvI0jBZ3xT-Jv_49BWHtDNa-IuaSeYcL4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "659965710584-93neigiv0tg0g1p5j6dnkn498571afuc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

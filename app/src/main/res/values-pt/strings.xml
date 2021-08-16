@@ -1,0 +1,133 @@
+<resources>
+    <string name="app_name">Astropedia</string>
+
+
+    <string-array name="names_signs">
+        <item>Áries</item>
+        <item>Touro</item>
+        <item>Gêmeos</item>
+        <item>Câncer</item>
+        <item>Leo</item>
+        <item>Virgem</item>
+        <item>Libra</item>
+        <item>Escorpião</item>
+        <item>Sagitário</item>
+        <item>Capricórnio</item>
+        <item>Aquário</item>
+        <item>Peixes</item>
+    </string-array>
+
+
+    <!--Splash-->
+    <string name="splash_title">Horóscopo</string>
+
+    <!--FormActivity-->
+    <string name="enter_your_details">Digite seus detalhes</string>
+    <string name="text_title">Vamos personalizar o horóscopo para você pessoalmente</string>
+    <string name="name">Nome</string>
+    <string name="birth">Data de nascimento</string>
+    <string name="bottom_text">Você pode alterar os dados mais tarde nas configurações</string>
+    <string name="cancel_date_picker">CANCELAR</string>
+    <string name="ok_date_picker">OK</string>
+
+    <!--Premium-->
+    <string name="remove_ads">Remover ADS</string>
+    <string name="prem4">3 dias grátis.</string>
+    <string name="prem5">Mais assinaturas por um mês</string>
+
+    <!--Settings-->
+    <string name="prem_set">Premium</string>
+    <string name="empty_prem">Remover ADS</string>
+    <string name="date_title">Data de nascimento</string>
+    <string name="notifications">Notificações</string>
+    <string name="notif_time_title">Receber notificações</string>
+    <string name="you_have_subscribed">Você se inscreveu</string>
+    <string name="ok_alert">OK</string>
+    <string name="pm">PM</string>
+    <string name="am">AM</string>
+    <string name="yesterday">Ontem</string>
+    <string name="today">Hoje</string>
+    <string name="tomorrow">Amanhã</string>
+    <string name="month">Mês</string>
+    <string name="year">Ano</string>
+    <string name="today_apos_s_matches">Jogos de hoje</string>
+    <string name="love">Amor</string>
+    <string name="friendship">Amizade</string>
+    <string name="career">Carreira</string>
+    <string name="general_mood">Humor geral</string>
+    <string name="sex">Sexo</string>
+    <string name="hustle">Encontrão</string>
+    <string name="vibe">Atividade</string>
+    <string name="success">Sucesso</string>
+    <string name="settings">Configurações</string>
+    <string name="week">Semana</string>
+    <string name="no_internet_connection">Sem conexão de internet</string>
+    <string name="check_your_internet_connection">Verifique sua conexão com a Internet e tente novamente</string>
+    <string name="try_again">Tente novamente</string>
+    <string name="check_connection">Verifique sua conexão com a internet</string>
+
+    <string-array name="notifications_text">
+        <item>Uma incrível aventura espera por você hoje</item>
+        <item>Você precisa ter cuidado hoje...</item>
+        <item>Cuidado com o truque sujo de um ente querido!</item>
+        <item>Hoje você está com sorte....</item>
+        <item>Os planetas falam de grande sucesso ...</item>
+    </string-array>
+
+    <string name="d_of_d">%d de %d</string>
+    <string name="tap_ball">Toque para bola</string>
+    <string name="ask">Faça a pergunta</string>
+    <string name="answer_init">\?</string>
+
+    <string name="access_will">O acesso será aberto por meio de:</string>
+    <string name="alert_title">O limite de perguntas foi atingido</string>
+    <string name="or">ou</string>
+    <string name="connect_premium">Conecte PREMIUM e obtenha:</string>
+    <string name="full_access">Acesso totals</string>
+    <string name="no_ads">Sem ADS</string>
+    <string name="get_premium">Obter Premium</string>
+    <string name="premium">Premium</string>
+    <string name="get_vip">Obter versão vip</string>
+    <string name="hour_short">h</string>
+
+    <string-array name="answers">
+        <item>Sem\ndúvida\n</item>
+        <item>Muito\nprovável\n\n</item>
+        <item>Conte com\nisso</item>
+        <item>Pergunte\nmais\ntarde</item>
+        <item>Não</item>
+        <item>Sim</item>
+        <item>Aja</item>
+        <item>Não se\napresse\n</item>
+        <item>Certa-\nmente</item>
+        <item>Sem\nresposta\n\n</item>
+        <item>Acho que\nsim</item>
+        <item>Eu acho\nque não\n</item>
+    </string-array>
+
+    <string name="horoscope">Horóscopo</string>
+    <string name="magic_ball">Bola mágica</string>
+    <string name="aries">Áries</string>
+    <string name="taurus">Touro</string>
+    <string name="gemini">Gêmeos</string>
+    <string name="cancer">Câncer</string>
+    <string name="leo">Leo</string>
+    <string name="virgo">Virgem</string>
+    <string name="libra">Libra</string>
+    <string name="scorpio">Escorpião</string>
+    <string name="sagittarius">Sagitário</string>
+    <string name="capricorn">Capricórnio</string>
+    <string name="aquarius">Aquário</string>
+    <string name="pisces">Peixes</string>
+    <string name="off_ads">OFF ADS</string>
+    <string name="get_a_premium_subscription">Obtenha uma assinatura premium</string>
+    <string name="full_information_is_available_by_subscription">A informação completa está disponível por assinatura</string>
+    <string name="get_access">Conseguir acesso</string>
+    <string name="no_advertising">Sem publicidade</string>
+    <string name="full_access_to_horoscopes">Acesso total aos horóscopos</string>
+    <string name="unlimited_questions_to_the_magic_ball">Perguntas ilimitadas para a bola mágica</string>
+    <string name="try_free_trial">Teste grátis</string>
+
+
+
+</resources>

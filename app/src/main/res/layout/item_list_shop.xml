@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="center">
+    
+    <ImageView
+        android:id="@+id/ivMain"
+        android:layout_width="112dp"
+        android:layout_height="112dp"
+        android:src="@drawable/ic_cristal_0"
+        android:elevation="4dp"
+        android:layout_gravity="center_horizontal"/>
+    
+    
+    <androidx.cardview.widget.CardView
+        android:layout_width="155dp"
+        android:layout_height="191dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="3dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="102dp"
+                android:src="@drawable/shape_crystal_border"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="89dp"
+                android:orientation="vertical"
+                android:background="@drawable/shape_crystal_bottom_gradient">
+
+                <TextView
+                    android:id="@+id/tvName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/open_sans_semibold"
+                    android:textStyle="normal"
+                    android:textSize="16sp"
+                    android:textColor="#000000"
+                    android:letterSpacing="0.04"
+                    android:lineSpacingExtra="4.6sp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="9dp"
+                    tools:text="Ametist"
+                    />
+
+                <TextView
+                    android:id="@+id/tvProp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="normal"
+                    android:textSize="12sp"
+                    android:textColor="#000000"
+                    android:letterSpacing="0.03"
+                    android:lineSpacingExtra="4sp"
+                    tools:text="Health"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginTop="5dp"
+                    android:drawableEnd="@drawable/ic_play_arrow"
+                    />
+
+
+            </LinearLayout>
+
+
+            
+            
+            
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>

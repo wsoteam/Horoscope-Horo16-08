@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/flContainer"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="16dp"
+            android:layout_marginTop="19dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="sans-serif-medium"
+            android:letterSpacing="0.03"
+            android:lineSpacingExtra="4.9sp"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:textStyle="normal"/>
+
+        <View
+            android:id="@+id/divider5"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="19dp"
+            android:background="#14ffffff" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/llLock"
+        android:orientation="vertical"
+        android:layout_gravity="top"
+        android:layout_marginTop="220dp"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img_crown_prem"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="9dp"
+            android:textSize="18sp"
+            android:textColor="#ffffff"
+            android:letterSpacing="0.04"
+            android:lineSpacingExtra="5.1sp"
+            android:gravity="center_horizontal"
+            android:text="@string/get_a_premium_subscription"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#ffffff"
+            android:letterSpacing="0.06"
+            android:lineSpacingExtra="3.2sp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:text="@string/full_information_is_available_by_subscription"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#ffffff"
+            android:letterSpacing="0.06"
+            android:lineSpacingExtra="4.6sp"
+            android:text="@string/get_access"
+            android:background="@drawable/shape_lock_prem"
+            android:paddingStart="46dp"
+            android:paddingRight="46dp"
+            android:textAllCaps="false"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/btnLockPrem"
+            android:layout_marginTop="30dp"/>
+
+    </LinearLayout>
+
+</FrameLayout>
