@@ -11,21 +11,21 @@ object DBWorker {
 
 
         FirebaseDatabase
-            .getInstance("https://horoskope-93536-default-rtdb.firebaseio.com/")
+            .getInstance("https://horoscopeweb2-default-rtdb.firebaseio.com/")
             .reference
             .child(path)
             .addListenerForSingleValueEvent(object : ValueEventListener {
 
                 override fun onCancelled(p0: DatabaseError) {
                     dbCallbacks.onError()
-                    //Log.e("LOL", "onCancelled")
+                    Log.e("LOL", "onCancelled")
                 }
 
                 override fun onDataChange(p0: DataSnapshot) {
-                    //Log.e("LOL", "onDataChange")
+                    Log.e("LOL", "onDataChange")
                     if (p0.getValue(String::class.java) != null) {
                         val url : String = p0.getValue(String::class.java) ?: ""
-                        //Log.e("LOL", url)
+                        Log.e("LOL", url)
                         if (url == ""){
                             dbCallbacks.onError()
                         }else{

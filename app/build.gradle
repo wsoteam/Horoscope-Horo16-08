@@ -5,12 +5,13 @@ apply plugin: 'kotlin-kapt'
 apply plugin: 'com.google.gms.google-services'
 apply plugin: 'com.google.firebase.crashlytics'
 
+
 android {
     compileSdkVersion 29
     buildToolsVersion "29.0.3"
 
     defaultConfig {
-        applicationId "kek.lolkekteam.astrohuastro"
+        applicationId "com.loolhorastrolol.wsolol"
         minSdkVersion 22
         targetSdkVersion 29
         versionCode 2

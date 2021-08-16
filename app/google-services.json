@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "659965710584",
-    "project_id": "horoskope-93536",
-    "storage_bucket": "horoskope-93536.appspot.com"
+    "project_number": "598492215740",
+    "project_id": "horoscopeweb2",
+    "storage_bucket": "horoscopeweb2.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:659965710584:android:d6f800ece46f55e8eb6b0d",
+        "mobilesdk_app_id": "1:598492215740:android:3014a45470ed3bcfd7d3b9",
         "android_client_info": {
-          "package_name": "kek.lolkekteam.astrohuastro"
+          "package_name": "com.loolhorastrolol.wsolol"
         }
       },
       "oauth_client": [
         {
-          "client_id": "659965710584-93neigiv0tg0g1p5j6dnkn498571afuc.apps.googleusercontent.com",
+          "client_id": "598492215740-dsco1ivn241637rj04kjke7nrqb8hq06.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDvI0jBZ3xT-Jv_49BWHtDNa-IuaSeYcL4"
+          "current_key": "AIzaSyB7vOoJ_sYuMnTWuAZq9IE3yso8Ew4ZmBc"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "659965710584-93neigiv0tg0g1p5j6dnkn498571afuc.apps.googleusercontent.com",
+              "client_id": "598492215740-dsco1ivn241637rj04kjke7nrqb8hq06.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

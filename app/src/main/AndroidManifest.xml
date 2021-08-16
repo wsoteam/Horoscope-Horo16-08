@@ -160,7 +160,7 @@
 
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="com.mydomain.fileprovider"
+            android:authorities="com.loolhorastrolol.wsolol"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data
