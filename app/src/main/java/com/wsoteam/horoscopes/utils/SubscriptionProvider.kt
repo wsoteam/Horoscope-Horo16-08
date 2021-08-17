@@ -7,7 +7,6 @@ import com.android.billingclient.api.*
 import com.qonversion.android.sdk.Qonversion
 import com.wsoteam.horoscopes.Config
 import com.wsoteam.horoscopes.utils.loger.L
-import com.yandex.metrica.YandexMetrica
 
 object SubscriptionProvider : PurchasesUpdatedListener, BillingClientStateListener {
 
@@ -112,7 +111,6 @@ object SubscriptionProvider : PurchasesUpdatedListener, BillingClientStateListen
                         try {
                             PreferencesProvider.setPrice(skuDetailsList!![0].price)
                         } catch (ex: Exception) {
-                            YandexMetrica.reportEvent("error price set")
                         }
                     }
                 }
