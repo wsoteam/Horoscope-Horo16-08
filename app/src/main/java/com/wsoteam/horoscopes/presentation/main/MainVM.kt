@@ -46,7 +46,7 @@ class MainVM(application: Application) : AndroidViewModel(application) {
 
     private val CAMPAIGN_TAG = "campaign"
     val FB_PATH = "by"
-    private val KEY_WORD = "tt_key"
+    private val KEY_WORD = "tt_key"//
     private val ADVERT_ID = "advertising_id"
 
     private var status: MutableLiveData<Int>? = null
@@ -238,5 +238,4 @@ class MainVM(application: Application) : AndroidViewModel(application) {
         const val WHITE = 0
         const val BLACK = 1
     }
-
 }
