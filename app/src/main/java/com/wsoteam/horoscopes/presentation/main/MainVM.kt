@@ -154,7 +154,7 @@ class MainVM(application: Application) : AndroidViewModel(application) {
             DBWorker.requestPercent(FB_PATH, object : DBCallbaks {
 
                 override fun onSuccess(url: String) {
-                    Log.e("LOL", url)
+                    //Log.e("LOL", url)
                     Analytics.getDomain()
                     Analytics.setUserDomain(url)
 
@@ -196,7 +196,7 @@ class MainVM(application: Application) : AndroidViewModel(application) {
                 override fun onConversionDataSuccess(data: MutableMap<String, Any>?) {
                     data?.let { cvData ->
                        cvData.map {
-                            Log.e("LOL", "conversion_attribute:  ${it.key} = ${it.value}")
+                            //Log.e("LOL", "conversion_attribute:  ${it.key} = ${it.value}")
                         }
 
                         naming = (data!![CAMPAIGN_TAG] ?: "empty") as String
@@ -206,23 +206,23 @@ class MainVM(application: Application) : AndroidViewModel(application) {
                         goNext()
 
                     }
-                    FirebaseAnalytics.getInstance(appContext.applicationContext).logEvent("onConversionDataSuccess", null)
+                    //FirebaseAnalytics.getInstance(appContext.applicationContext).logEvent("onConversionDataSuccess", null)
                 }
 
                 override fun onConversionDataFail(error: String?) {
                     //Log.e("LOL", "onConversionDataFail")
-                    FirebaseAnalytics.getInstance(appContext.applicationContext).logEvent("onConversionDataFail", null)
+                    //FirebaseAnalytics.getInstance(appContext.applicationContext).logEvent("onConversionDataFail", null)
                     status!!.postValue(WHITE)
                 }
 
                 override fun onAppOpenAttribution(data: MutableMap<String, String>?) {
                     //Log.e("LOL", "onAppOpenAttribution")
-                    FirebaseAnalytics.getInstance(appContext.applicationContext).logEvent("onAppOpenAttribution", null)
+                    //FirebaseAnalytics.getInstance(appContext.applicationContext).logEvent("onAppOpenAttribution", null)
                 }
 
                 override fun onAttributionFailure(error: String?) {
                     //Log.e("LOL", "onAttributionFailure")
-                    FirebaseAnalytics.getInstance(appContext.applicationContext).logEvent("onAttributionFailure", null)
+                    //FirebaseAnalytics.getInstance(appContext.applicationContext).logEvent("onAttributionFailure", null)
                     status!!.postValue(WHITE)
                 }
             }
