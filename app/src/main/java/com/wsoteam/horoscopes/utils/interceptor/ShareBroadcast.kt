@@ -12,6 +12,6 @@ class ShareBroadcast : BroadcastReceiver()  {
     override fun onReceive(context: Context?, intent: Intent?) {
         context?.unregisterReceiver(this)
         var component = intent!!.getParcelableExtra<ComponentName>(Intent.EXTRA_CHOSEN_COMPONENT)
-        Analytic.share(component.packageName)
+        //Analytic.share(component.packageName)
     }
 }

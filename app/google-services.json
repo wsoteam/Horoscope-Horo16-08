@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "598492215740",
-    "project_id": "horoscopeweb2",
-    "storage_bucket": "horoscopeweb2.appspot.com"
+    "project_number": "67093171876",
+    "project_id": "horo1608",
+    "storage_bucket": "horo1608.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:598492215740:android:3014a45470ed3bcfd7d3b9",
+        "mobilesdk_app_id": "1:67093171876:android:e823097faacdf5635f6031",
         "android_client_info": {
           "package_name": "com.loolhorastrolol.wsolol"
         }
       },
       "oauth_client": [
         {
-          "client_id": "598492215740-dsco1ivn241637rj04kjke7nrqb8hq06.apps.googleusercontent.com",
+          "client_id": "67093171876-hhjg3q7fm8mkhpf913p4o33rdd7e731g.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyB7vOoJ_sYuMnTWuAZq9IE3yso8Ew4ZmBc"
+          "current_key": "AIzaSyAPwRy96jN58e02JRkTY8Hq2Vz5_uk4rQg"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "598492215740-dsco1ivn241637rj04kjke7nrqb8hq06.apps.googleusercontent.com",
+              "client_id": "67093171876-hhjg3q7fm8mkhpf913p4o33rdd7e731g.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
